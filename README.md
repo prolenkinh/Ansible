@@ -1,4 +1,3 @@
-# creatVlan45656546
 
 # Tổng quan về Ansible
 ![image](https://user-images.githubusercontent.com/129259654/229782993-26794af9-4404-4240-b431-dbfa73c13a01.png)
@@ -51,21 +50,25 @@ Ansible thường được nhóm cùng với các công cụ quản lý cấu h�
 ![image](https://user-images.githubusercontent.com/129259654/229786100-edc340e3-9736-47d1-8796-f28b06b0f139.png)
 
 Ứng dụng của bạn phải tồn tại ở một nơi nào đó. Nếu bạn đang khởi động PXE (Preboot eXecution Environment) và khởi động máy chủ kim loại thô hoặc Máy ảo, hoặc tạo các phiên bản ảo hoặc đám mây từ các mẫu, Ansible & Ansible Tower sẽ giúp đơn giản hóa quy trình này. Tôi cũng sẽ cần cài đặt Visual Studio trong máy tính của bạn. Đây là lúc Ansible đảm bảo rằng các gói yêu cầu được tải xuống và cài đặt để cung cấp ứng dụng của tôi.
+
 - Configuration Management
 
 ![image](https://user-images.githubusercontent.com/129259654/229786193-7353d820-0a7d-49a4-8da6-13637e93da29.png)
 
 Nó thiết lập và duy trì tính nhất quán về hiệu suất của sản phẩm bằng cách ghi lại và cập nhật thông tin chi tiết mô tả phần cứng và phần mềm của doanh nghiệp. Thông tin đó thường bao gồm các phiên bản và bản cập nhật đã được áp dụng cho các gói phần mềm đã cài đặt cũng như vị trí và địa chỉ mạng của các thiết bị phần cứng. 
+
 •	Application Deployment
 
  ![image](https://user-images.githubusercontent.com/129259654/229786418-a63ff771-7528-475c-b41f-954b039902d6.png)
 
 Khi bạn xác định ứng dụng của mình với Ansible và quản lý việc triển khai với Ansible Tower, các nhóm có thể quản lý hiệu quả toàn bộ vòng đời ứng dụng từ phát triển đến sản xuất. Nhưng tại sao phải lo lắng về việc thực hiện từng bước một khi chúng ta có một công cụ như Ansible. Tất cả những gì bạn cần làm là liệt kê các tác vụ này trong sách phát Ansible của mình và ngồi xem Ansible thực hiện các tác vụ này theo thứ tự.
+
 •	Security and Compliance
 
  ![image](https://user-images.githubusercontent.com/129259654/229786439-587584fe-7f9e-4f5e-80ce-f8121ca6ed06.png)
  
 Khi bạn xác định chính sách bảo mật của mình trong Ansible, việc quét và khắc phục chính sách bảo mật trên toàn trang có thể được tích hợp vào các quy trình tự động khác. Và nó sẽ không thể thiếu trong mọi thứ được triển khai. Điều đó có nghĩa là, bạn cần phải định cấu hình các chi tiết bảo mật của mình một lần trong máy điều khiển của bạn và nó sẽ được nhúng vào tất cả các nút khác một cách tự động. Hơn nữa, tất cả thông tin đăng nhập (id người dùng quản trị và mật khẩu) được lưu trữ trong Ansible không thể truy xuất được ở dạng văn bản thuần bởi bất kỳ người dùng nào.
+
 •	Orchestration
 
  ![image](https://user-images.githubusercontent.com/129259654/229786475-69cf63f1-ca05-4f88-a9c6-f873d2a29337.png)
