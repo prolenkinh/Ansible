@@ -1,6 +1,8 @@
 
 # Tổng quan về Ansible
 ![image](https://user-images.githubusercontent.com/129259654/229782993-26794af9-4404-4240-b431-dbfa73c13a01.png)
+
+https://unix.stackexchange.com/questions/340844/how-to-enable-diffie-hellman-group1-sha1-key-exchange-on-debian-8-0
   Ansible là một công cụ quản lý, triển khai và điều phối cấu hình CNTT mã nguồn mở. Nó nhằm mục đích cung cấp mức tăng năng suất lớn trước nhiều thách thức tự động hóa. Công cụ này rất đơn giản để sử dụng nhưng đủ mạnh để tự động hóa các môi trường ứng dụng CNTT nhiều tầng phức tạp.
  ### Tại sao chúng ta cần Ansible?
   Chúng ta hãy thử hồi tưởng một chút về sự khởi đầu của máy tính nối mạng khi việc triển khai và quản lý máy chủ một cách đáng tin cậy và hiệu quả là một thách thức. Trước đây, các quản trị viên hệ thống quản lý các máy chủ bằng tay, cài đặt phần mềm, thay đổi cấu hình và quản trị các dịch vụ trên các máy chủ riêng lẻ.
