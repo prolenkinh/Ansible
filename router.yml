@@ -1,6 +1,6 @@
 ---
 - name: Set Ip Loobpack
-  hosts: all
+  hosts: Chien_Router
   gather_facts: no
 
   tasks:
