@@ -1,6 +1,6 @@
 ---
 - name: tao vlan
-  hosts: all
+  hosts: Chien_SW
   gather_facts: no
 
   tasks:
