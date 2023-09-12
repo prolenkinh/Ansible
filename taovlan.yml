@@ -1,6 +1,6 @@
 ---
 - name: demo
-  hosts: Switch
+  hosts: Chien_SW
 
   tasks:
     - name: Create vlan
