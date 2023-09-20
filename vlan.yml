@@ -1,6 +1,6 @@
 ---
 - name: tao vlan
-  hosts: all
+  hosts: Dat_SW1
   gather_facts: no
 
   tasks:
