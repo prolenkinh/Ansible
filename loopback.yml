@@ -1,7 +1,6 @@
 ---
 - name: dat ip cho loobpack
-  hosts: all # tên của thiết bị trong Ansible server( vì ở đây chỉ có router nên có thể để all)
-# các tác vụ
+  hosts: Dat_R01
   tasks:
     - name: Set loopback IPv4 address # Đặt tên task để quản lý
       ios_l3_interface: # do cấu hình router nên bắt buộc khai báo như vậy
