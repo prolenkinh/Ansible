@@ -1,6 +1,6 @@
 ---
 - name: tao vlan
-  hosts: Chien_SW
+  hosts: Chien_23A13_Switch
   gather_facts: no
 
   tasks:
